@@ -16,7 +16,7 @@ const Episodes = () => {
     <div className="min-h-screen bg-background">
       <SiteHeader />
       <main className="container-content py-12 md:py-20">
-        <section className="space-y-4 mb-12">
+        <section className="flex flex-col gap-4 mb-12">
           <h1>Episodes</h1>
           <p className="body-base text-foreground/[0.65] max-w-[640px]">
             Each episode follows one builder who found a way in through a door most people didn't know existed.

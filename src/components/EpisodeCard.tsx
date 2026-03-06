@@ -24,7 +24,7 @@ const EpisodeCard = ({ slug, title, season, duration, thumbnail, tags }: Episode
             </div>
           )}
         </div>
-        <div className="p-5 space-y-2">
+        <div className="p-5 flex flex-col gap-2">
           {(season || duration) && (
             <p className="body-small text-foreground/[0.35]">
               {season}{season && duration && " · "}{duration}

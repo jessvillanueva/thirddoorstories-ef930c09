@@ -24,7 +24,7 @@ const ThirdDoorMap = () => {
     <div className="min-h-screen bg-background">
       <SiteHeader />
       <main className="container-content py-12 md:py-20">
-        <section className="space-y-4 mb-10">
+        <section className="flex flex-col gap-4 mb-10">
           <span className="overline text-accent">Third Door Map</span>
           <h1>The Paths Most People Don't Know Exist</h1>
           <p className="body-base text-foreground/[0.65] max-w-[640px]">
@@ -49,10 +49,10 @@ const ThirdDoorMap = () => {
           ))}
         </div>
 
-        <div className="space-y-4">
+        <div className="flex flex-col gap-4">
           {filtered.map((entry) => (
             <a key={entry.name} href={entry.url} className="card-surface p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4 group hover:bg-[hsl(var(--card-highlight))] hover:border-border/[0.20] transition-all duration-200 block">
-              <div className="space-y-2">
+              <div className="flex flex-col gap-2">
                 <h3 className="text-lg font-semibold group-hover:text-primary transition-colors">{entry.name}</h3>
                 <p className="body-small text-foreground/[0.65]">{entry.description}</p>
                 <div className="flex gap-2">

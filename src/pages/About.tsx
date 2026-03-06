@@ -10,7 +10,7 @@ const About = () => {
         <h1 className="mt-6 mb-8">
           We document the paths most people don't know exist.
         </h1>
-        <div className="space-y-6 body-base text-foreground/[0.65]">
+        <div className="flex flex-col gap-6 body-base text-foreground/[0.65]">
           <p>
             Third Door Stories is an independent documentary series about unconventional builders — 
             the ones who found microgrants, residencies, hacker houses, and programs that changed 
@@ -23,9 +23,9 @@ const About = () => {
           </p>
         </div>
 
-        <section className="mt-16 space-y-6">
+        <section className="mt-16 flex flex-col gap-6">
           <h2>Why This Exists</h2>
-          <div className="space-y-6 body-base text-foreground/[0.65]">
+          <div className="flex flex-col gap-6 body-base text-foreground/[0.65]">
             <p>
               Every year, thousands of ambitious people miss opportunities that could change their 
               lives — not because they aren't qualified, but because they never heard about them. 
@@ -38,7 +38,7 @@ const About = () => {
           </div>
         </section>
 
-        <section className="mt-16 space-y-6">
+        <section className="mt-16 flex flex-col gap-6">
           <h2>Backed By</h2>
           <div className="grid sm:grid-cols-2 gap-4">
             <div className="card-surface p-6">

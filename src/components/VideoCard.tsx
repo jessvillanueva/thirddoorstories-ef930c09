@@ -11,7 +11,7 @@ const VideoCard = ({ label, caption, videoId, type = "youtube" }: VideoCardProps
     : `https://www.loom.com/embed/${videoId}`;
 
   return (
-    <div className="space-y-3">
+    <div className="flex flex-col gap-3">
       <span className="overline text-foreground/[0.35]">{label}</span>
       <div className="card-surface overflow-hidden">
         <div className="relative w-full aspect-video bg-background">

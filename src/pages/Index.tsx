@@ -9,9 +9,9 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <SiteHeader />
 
-      <main className="container-content py-12 md:py-20 space-y-16 md:space-y-20">
+      <main className="container-content py-12 md:py-20 flex flex-col gap-16 md:gap-20">
         {/* Hero */}
-        <section className="space-y-6 animate-fade-in">
+        <section className="flex flex-col gap-6 animate-fade-in">
           <span className="overline text-primary">Emergent Ventures Proof Hub</span>
           <h1>
             These paths exist. They're just invisible unless you stumble onto them.
@@ -56,7 +56,7 @@ const Index = () => {
         </section>
 
         {/* Essays */}
-        <section className="space-y-6">
+        <section className="flex flex-col gap-6">
           <span className="overline text-foreground/[0.35]">From the Studio</span>
           <div className="grid md:grid-cols-2 gap-6">
             <EssayCard
