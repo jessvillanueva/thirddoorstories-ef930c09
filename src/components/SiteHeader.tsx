@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import micLogo from "@/assets/mic-logo.png";
 
 const SiteHeader = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -17,9 +18,7 @@ const SiteHeader = () => {
     <header className="w-full relative z-50">
       <div className="container-content flex items-center justify-between py-5">
         <Link to="/" className="flex items-center gap-3 group no-underline">
-          <div className="w-7 h-7 bg-primary rounded-sm flex items-center justify-center">
-            <span className="text-primary-foreground text-xs font-bold">TD</span>
-          </div>
+          <img src={micLogo} alt="Third Door Stories" className="w-7 h-7 object-contain" />
           <span className="overline text-foreground tracking-[0.2em] no-underline">THIRD DOOR STORIES</span>
         </Link>
 
