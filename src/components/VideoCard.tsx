@@ -25,8 +25,10 @@ const VideoCard = ({ label, caption, videoId, type = "youtube" }: VideoCardProps
             />
           ) : (
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-16 h-16 rounded-full border-2 border-foreground/[0.35] flex items-center justify-center">
-                <div className="w-0 h-0 border-t-[10px] border-t-transparent border-l-[16px] border-l-foreground/[0.5] border-b-[10px] border-b-transparent ml-1" />
+              <div className="w-16 h-16 rounded-full flex items-center justify-center" style={{ border: '2px solid hsla(60, 14%, 95.3%, 0.35)' }}>
+                <svg width="16" height="20" viewBox="0 0 16 20" fill="none" className="ml-1">
+                  <path d="M0 0L16 10L0 20V0Z" fill="hsla(60, 14%, 95.3%, 0.5)" />
+                </svg>
               </div>
             </div>
           )}
