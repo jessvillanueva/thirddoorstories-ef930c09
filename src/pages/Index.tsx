@@ -3,6 +3,8 @@ import SiteFooter from "@/components/SiteFooter";
 import VideoCard from "@/components/VideoCard";
 import EssayCard from "@/components/EssayCard";
 import EmailCaptureBar from "@/components/EmailCaptureBar";
+import logo1517 from "@/assets/1517-logo.png";
+import logoResidency from "@/assets/residency-logo.png";
 
 const Index = () => {
   return (
@@ -45,13 +47,11 @@ const Index = () => {
         {/* Social Proof */}
         <section className="animate-fade-in" style={{ animationDelay: "0.3s" }}>
           <div className="card-surface p-6 md:p-8">
-            <p className="body-base text-foreground/[0.65]">
-              This project is backed by{" "}
-              <span className="text-foreground font-semibold">1517 Fund (Medici Grant)</span>{" "}
-              and supported through{" "}
-              <span className="text-foreground font-semibold">The Residency — Delta Chapter II</span>.
-              We're building proof that unconventional paths deserve serious documentation.
-            </p>
+            <span className="overline text-foreground/[0.35] mb-4 block">Backed by</span>
+            <div className="flex items-center gap-8">
+              <img src={logo1517} alt="1517 Fund" className="h-8 object-contain" />
+              <img src={logoResidency} alt="The Residency" className="h-10 object-contain invert" />
+            </div>
           </div>
         </section>
 
