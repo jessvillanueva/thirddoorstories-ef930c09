@@ -1,13 +1,12 @@
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
-import logo1517 from "@/assets/1517-logo.png";
-import logoResidency from "@/assets/residency-logo.png";
 
 const About = () => {
   return (
     <div className="min-h-screen bg-background">
       <SiteHeader />
-      <main className="container-content py-12 md:py-20 max-w-[720px] animate-fade-in">
+      <main className="container-content py-12 md:py-20 max-w-[720px]">
+
         {/* Hero */}
         <span className="overline text-foreground/[0.35]">
           About Third Door Stories
@@ -18,34 +17,34 @@ const About = () => {
 
         <div className="flex flex-col gap-6 body-base text-foreground/[0.65]">
           <p>
-            Third Door Stories is a small documentary studio about hidden Door 3
-            paths for young people stuck between{" "}
+            Third Door Stories is a small documentary studio and essay lab mapping the hidden
+            builder world for young people stuck between{" "}
             <span className="italic">&quot;get a degree or fail&quot;</span> and{" "}
-            <span className="italic">&quot;drop out and hustle.&quot;</span> I focus on
-            the builder world most guidance counselors never mention:
-            microgrants, residencies, hacker houses, and programs that can
-            quietly change the trajectory of a life.
+            <span className="italic">&quot;drop out and hustle.&quot;</span> I focus on the builder
+            ecosystem most guidance counselors have never heard of: microgrants, residencies,
+            hacker houses, and communities that can quietly change the trajectory of a life.
           </p>
         </div>
 
         {/* Why This Exists */}
         <section className="mt-16 flex flex-col gap-6">
-          <h2>Why This Exists</h2>
+          <h2>The Information Gap No One Talks About</h2>
           <div className="flex flex-col gap-6 body-base text-foreground/[0.65]">
             <p>
-              Every year, thousands of ambitious people miss opportunities that
-              could change their lives — not because they aren&apos;t capable, but
-              because they never hear about them. The information gap around
-              unconventional paths is huge, and most of it lives in whisper
-              networks instead of public maps.
+              When I was 15 or 16, I was choosing between three paths. Door 1: a $52K business
+              degree leading to consulting, a comfortable career, and a scripted life. Door 2:
+              elite connections and inherited access. Door 3: actually learning how to help people,
+              independently, through building and freelancing from scratch.
             </p>
             <p>
-              Mental health and personal agency are usually treated like
-              willpower problems when they&apos;re mostly downstream of
-              environment. Most young adults are stuck in rooms that can&apos;t give
-              them what they actually need. Third Door Stories exists to close
-              that gap by turning real builder journeys and the places behind
-              them into documentaries anyone can watch for free.
+              No one named Door 3 for me. I stumbled into it through persistence, curiosity, and
+              seizing the whispers I kept overhearing in the right communities. By the time I chose
+              it at 16, I understood something most guidance counselors and college advisors never
+              explain: the real infrastructure for unconventional paths already exists. It just stays
+              invisible unless you happen to find the right person, Discord server, or dinner table.
+            </p>
+            <p>
+              Most people never find it. That&apos;s the gap Third Door Stories exists to close.
             </p>
           </div>
         </section>
@@ -55,146 +54,148 @@ const About = () => {
           <h2>My Story</h2>
           <div className="flex flex-col gap-6 body-base text-foreground/[0.65]">
             <p>
-              When I was 14, I finished my work early in middle school, convinced
-              my teachers to let me leave, and rode a bus to crash a science club
-              with older kids. They were nerdy, experimental, and fun‑loving.
-              That one room quietly reset my ceiling for what was possible.
+              When I was 14, I finished my work early in class, convinced my teachers to excuse me,
+              and rode a bus every month to crash a science club with older kids. They were nerdy,
+              experimental, and genuinely fun. That one room quietly reset my ceiling for what was
+              possible.
             </p>
             <p>
-              Over the next few years, I repeated that move at larger scales. I
-              found builder networks like Socratica, V2, 1517 Fund, and The
-              Residency — not school clubs in newsletters, but communities you
-              discover through late‑night DMs, side chats, and half‑hidden posts.
-              Same kid, different rooms. Completely different ceiling.
+              Over the next few years I repeated that move at bigger scales. I found builder
+              networks like Socratica, V2, 1517 Fund, and The Residency. Not school clubs you hear
+              about in newsletters. Communities you find through late night DMs, side chats, and
+              half hidden posts. Same kid, different rooms. Completely different ceiling.
             </p>
             <p>
-              By 16, I could see the track in front of me: a $52K business
-              degree, consulting, and a comfortable scripted life. At the same
-              time, I was meeting founders and residency leads who showed me a
-              third door: actually learn how to help people, from scratch, on
-              my own terms. No one told me Door 3 existed, but I chose it
-              anyway — pivoting from a full degree to a five‑course adult
-              diploma and from the Sauder path to independent building in social
-              good and documentary storytelling.
+              By 16 I could see the full track ahead of me: business school, small business
+              consulting, a respectable career. And I could also feel, for the first time, that it
+              probably wouldn&apos;t be fulfilling. I&apos;d spent enough time doing real business cases
+              early to de-romanticize the fantasy. Spending seven more years optimizing for that
+              path would be educational. But I wasn&apos;t confident the other side was any greener.
             </p>
             <p>
-              Along the way, I earned a $1,000 Medici grant from 1517, became a
-              Top 20 finalist in The Residency&apos;s Delta Chapter II as the only
-              filmmaker in my cohort, joined Buildspace S5, and embedded in
-              builder communities from Vancouver to San Francisco. The first
-              person who paid for the Patreon told me exactly what she valued:
-              &quot;the part about the hacker houses, residencies, and microgrants.&quot;
-              That was the moment it clicked that documenting this world
-              mattered.
+              So I pivoted. From a full degree to a five course adult diploma. From the Sauder
+              path to independent building in social good and documentary filmmaking.
+            </p>
+            <p>
+              Along the way I earned my way into the builder world one step at a time: a $1,000
+              Medici grant from 1517 Fund, a Top 20 finish in The Residency&apos;s Delta Chapter II as
+              the only filmmaker in the cohort, Buildspace S5 with a trip to San Francisco for demo
+              day, and time spent at Socratica nodes, V2, Cansbridge, and others. The first person
+              who paid for the Patreon told me exactly what she valued: &quot;the part about the hacker
+              houses, residencies, and microgrants.&quot; That was the moment documenting this world
+              felt necessary.
             </p>
           </div>
         </section>
 
         {/* What Third Door Stories Is */}
         <section className="mt-16 flex flex-col gap-6">
-          <h2>What Third Door Stories Is</h2>
+          <h2>A Map of the Messy Middle</h2>
           <div className="flex flex-col gap-6 body-base text-foreground/[0.65]">
             <p>
-              Third Door Stories is a documentary series and essay lab mapping
-              the hidden builder ecosystem: the microgrants, residencies, hacker
-              houses, and fellowships that almost never show up in official
-              college brochures. Episodes run 10–20 minutes and focus on the
-              messy middle — money stress, program departures, and family
-              conversations — with outcomes as context instead of the whole
-              story.
+              Third Door Stories is a documentary series and essay lab about the identity shifts,
+              critical decisions, and messy middles of builders who took the third door and the
+              real infrastructure that made it viable.
             </p>
             <p>
-              AI tools can tell you how to start a company. College counselors
-              can help package a project. What they can&apos;t show you is what it
-              feels like to be 17 or 22, taking a real leap, dealing with
-              self‑doubt, and shipping anyway. That emotional terrain is what
-              Third Door Stories documents.
+              Episodes run 10 to 20 minutes and focus on the parts that don&apos;t fit neatly on a
+              résumé: money stress, program departures, family conversations, and the months when
+              nothing works. Outcomes are context, not the whole story.
             </p>
             <p>
-              The first pilot was shot during The Residency&apos;s Delta Chapter II:
-              a 27‑minute conversation with Brian Scudamore, founder of
-              1‑800‑GOT‑JUNK?, cut into a short pilot using borrowed gear. From
-              cold email to public launch in 24 days, it generated early revenue
-              and the first Patreon supporters — proof there&apos;s real appetite
-              for this kind of documentation. Distribution is simple: YouTube as
-              the free front door, Patreon for recurring support and deeper
-              cuts, and a film‑festival track for credibility over virality.
+              The first pilot was shot during The Residency&apos;s Delta Chapter II, a three week
+              builder sprint where I placed Top 20 out of over 1,500 participants globally. It was
+              a 27 minute conversation with Brian Scudamore, founder of 1-800-GOT-JUNK?, cut into
+              a short episode using borrowed gear. From cold email to public launch in 24 days, it
+              generated early revenue and the first Patreon supporters, proof there&apos;s real appetite
+              for this kind of documentation.
             </p>
+            <p>What I&apos;m mapping across documentary episodes, essays, and posts:</p>
+            <ul className="flex flex-col gap-2 list-disc list-inside">
+              <li>Microgrants like 1517 Medici, Emergent Ventures, and Bagel Fund</li>
+              <li>Residencies like Nautilus and The Residency</li>
+              <li>Hacker houses like FR8 and ecosystems in SF, Waterloo, and Vancouver</li>
+              <li>Builder communities like Socratica, Cansbridge, and others</li>
+              <li>
+                First client stories, product validation without VC, and navigating family pressure
+              </li>
+            </ul>
           </div>
         </section>
 
         {/* How It's Different */}
         <section className="mt-16 flex flex-col gap-6">
-          <h2>How It&apos;s Different</h2>
+          <h2>Peer Documentation, Not Polished Hindsight</h2>
           <div className="flex flex-col gap-6 body-base text-foreground/[0.65]">
             <p>
-              I&apos;m not a 35‑year‑old filmmaker looking back with tidy hindsight.
-              I&apos;m 18, in Vancouver, living the same tradeoffs I&apos;m documenting:
-              finishing an adult diploma, leaving the default path, and building
-              an independent studio with no institutional safety net. The films
-              feel more like a peer conversation than a polished lecture.
+              I&apos;m not a 35 year old filmmaker looking back with tidy hindsight. I&apos;m 18, in
+              Vancouver, living the same tradeoffs I&apos;m documenting. The films feel more like a
+              peer conversation than a polished lecture because they are.
             </p>
             <p>
-              Most education tools act like cookbooks: they give you recipes and
-              frameworks. Third Door Stories is closer to a cooking show for
-              alternative lives. You watch someone actually &quot;cook&quot; an
-              unconventional path in real time, see the mistakes, and feel what
-              &quot;golden brown&quot; looks like before you ever try it yourself.
+              Most education tools act like cookbooks. They give you recipes and frameworks. Third
+              Door Stories is closer to a cooking show for alternative lives. You watch someone
+              actually cook an unconventional path in real time, see the mistakes, and understand
+              what &quot;golden brown&quot; looks like before you ever try it yourself.
             </p>
             <p>
-              The project is radically independent. There are no university
-              partners deciding which stories are on‑brand, no investors pushing
-              for hyper‑growth, and no film school gatekeeping what counts as
-              &quot;real&quot; cinema. The goal isn&apos;t virality; it&apos;s to build a
-              multi‑season archive of real paths between roughly 17 and 21 so
-              that, by 2030, exploring Door 3 feels as normal and concrete as
-              writing a college application essay.
+              AI tools can tell you how to start a company. College counselors can help package a
+              project. What they can&apos;t show you is what it feels like to be 17 or 22, taking a
+              real leap, dealing with self doubt, and shipping anyway. That emotional terrain is
+              what Third Door Stories documents.
+            </p>
+            <p>
+              The project is radically independent. No university partners deciding which stories
+              are on brand. No investors pushing for hyper growth. No film school gatekeeping what
+              counts as real cinema. The goal isn&apos;t virality. By 2030, I want exploring Door 3 to
+              feel as normal and legible as writing a college application essay.
             </p>
           </div>
         </section>
 
-        {/* If This Is For You */}
-        <section className="mt-16 mb-8 flex flex-col gap-6">
-          <h2>If This Is For You</h2>
-          <div className="flex flex-col gap-4 body-base text-foreground/[0.65]">
-            <p>
-              If you&apos;re a student, early‑career builder, or quietly restless
-              person who feels trapped between &quot;play it safe&quot; and &quot;burn the
-              boats,&quot; these stories are for you. If you grew up far from the
-              hubs where this world is visible and you&apos;re just now learning
-              that microgrants, residencies, and hacker houses even exist,
-              they&apos;re especially for you.
-            </p>
-            <p>
-              Start with Episode 0, wander the Third Door Map, and if it hits,
-              join the newsletter or Patreon and send an episode to the one
-              friend who needs proof that Door 3 is real.
-            </p>
-          </div>
-        </section>
-
-        {/* Backed by */}
-        <section className="mt-16 mb-8 flex flex-col gap-8 bg-card rounded-2xl p-8">
+        {/* Backed By */}
+        <section className="mt-16 flex flex-col gap-6">
           <h2>Backed By</h2>
-          <div className="flex items-center justify-center gap-8">
-            <img src={logo1517} alt="1517 Fund" className="h-10 object-contain" />
-            <img src={logoResidency} alt="The Residency" className="h-12 object-contain" />
-          </div>
-          <div className="grid sm:grid-cols-2 gap-6">
-            <div className="card-surface p-6 flex flex-col gap-3">
-              <span className="overline text-primary">1517's Medici Grant</span>
-              <p className="body-small text-foreground/[0.65]">
-                A small, fast microgrant from 1517 Fund designed to help young builders ship their next concrete step — no strings attached, no pitch deck required. Third Door Stories received a $1,000 Medici grant to fund early production.
+          <div className="flex flex-col gap-8">
+            <div className="flex flex-col gap-2">
+              <p className="overline text-foreground/[0.35]">1517 Medici Grant</p>
+              <p className="body-base text-foreground/[0.65]">
+                A small, fast microgrant from 1517 Fund designed to help young builders ship their
+                next concrete step with no pitch deck required. Third Door Stories received a $1,000
+                Medici grant to fund early production.
               </p>
             </div>
-            <div className="card-surface p-6 flex flex-col gap-3">
-              <span className="overline text-primary">The Residency — Delta Chapter II Top 20</span>
-              <p className="body-small text-foreground/[0.65]">
-                The Residency is a builder residency for early-stage founders and creators shipping ambitious projects. Third Door Stories was selected as a Top 20 finalist in Delta Chapter II — the only filmmaker in the cohort — where the pilot episode was shot and launched in 24 days.
+            <div className="flex flex-col gap-2">
+              <p className="overline text-foreground/[0.35]">
+                The Residency — Delta Chapter II Top 20
+              </p>
+              <p className="body-base text-foreground/[0.65]">
+                Delta Chapter II is a three week builder sprint hosted by The Residency. Third Door
+                Stories was selected as a Top 20 finalist out of over 1,500 participants globally,
+                as the only filmmaker in the cohort. The pilot episode was shot and launched there
+                in 24 days.
               </p>
             </div>
           </div>
         </section>
+
+        {/* Closing */}
+        <section className="mt-16 mb-8 flex flex-col gap-4 body-base text-foreground/[0.65]">
+          <p>
+            Third Door Stories isn&apos;t advice. It isn&apos;t &quot;follow your passion&quot; content. It
+            isn&apos;t me telling you to burn the boats and move to San Francisco.
+          </p>
+          <p>
+            It&apos;s documentation. The real paths, networks, and small checks that make Door 3 less
+            mysterious and less lonely for a curious person inside modern education and work.
+          </p>
+          <p>
+            Start with Episode 0, subscribe on YouTube for full episodes, or join the Patreon for
+            full uncut interviews, case study breakdowns, and the live updated map of 25 or more
+            microgrants, 10 or more residencies, and 20 or more hacker houses.
+          </p>
+        </section>
+
       </main>
       <SiteFooter />
     </div>
