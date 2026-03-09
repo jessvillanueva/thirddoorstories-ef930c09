@@ -33,20 +33,29 @@ const About = () => {
           <h2>The Information Gap No One Talks About</h2>
           <div className="flex flex-col gap-6 body-base text-foreground/[0.65]">
             <p>
-              When I was 15 or 16, I was choosing between three paths. Door 1: a $52K business
-              degree leading to consulting, a comfortable career, and a scripted life. Door 2:
-              elite connections and inherited access. Door 3: actually learning how to help people,
-              independently, through building and freelancing from scratch.
+              When I was 15 or 16, I was choosing between three paths.
             </p>
+            <ul className="flex flex-col gap-2 list-disc list-inside">
+              <li>Door 1: a $52K business degree leading to consulting, a comfortable career, and a life on script.</li>
+              <li>Door 2: elite connections and inherited access.</li>
+              <li>Door 3: actually learning how to help people, independently, through building and freelancing from scratch.</li>
+            </ul>
             <p>
               No one named Door 3 for me. I stumbled into it through persistence, curiosity, and
-              seizing the whispers I kept overhearing in the right communities. By the time I chose
-              it at 16, I understood something most guidance counselors and college advisors never
-              explain: the real infrastructure for unconventional paths already exists. It just stays
-              invisible unless someone happens to find the right person, Discord server, or dinner table.
+              seizing the whispers I kept overhearing in the right communities.
             </p>
             <p>
-              Most people never find it. That&apos;s the gap Third Door Stories exists to close.
+              By the time I chose it at 16, I saw something I haven&apos;t heard from any guidance
+              counselor or college advisor: the real infrastructure for taking risks during
+              someone&apos;s 20s already exists. It just stays invisible unless someone happens to find
+              the right person, Discord server, or dinner table.
+            </p>
+            <p>
+              Most people never find it and I haven&apos;t seen anyone fully piece it together beyond
+              forums and spreadsheets.
+            </p>
+            <p>
+              That&apos;s the gap Third Door Stories exists to close.
             </p>
           </div>
         </section>
@@ -80,13 +89,20 @@ const About = () => {
               path to independent building in social good and documentary filmmaking.
             </p>
             <p>
-              Along the way I earned my way into the builder world one step at a time: a $1,000
-              Medici grant from 1517 Fund, a Top 20 finish in The Residency&apos;s Delta Chapter II as
-              the only filmmaker in the cohort, buildspace s5 with a trip to San Francisco for demo
-              day, and time spent at Socratica nodes, V2, Cansbridge, and others. The first person
-              who paid for the Patreon told me exactly what she valued: &quot;the part about the hacker
-              houses, residencies, and microgrants.&quot; That was the moment documenting this world
-              felt necessary.
+              Along the way I earned my way into the builder world one step at a time:
+            </p>
+            <ul className="flex flex-col gap-2 list-disc list-inside">
+              <li>a $1,000 Medici grant from 1517 Fund</li>
+              <li>a Top 20 finish in The Residency&apos;s Delta Chapter II as the only filmmaker in the cohort</li>
+              <li>buildspace s5 with a trip to San Francisco for demo day</li>
+              <li>swung by Socratica nodes, V2, Cansbridge, and other builder and founder events locally with heating potential</li>
+            </ul>
+            <p>
+              The first unsolicited person who paid for the Patreon told me exactly what she
+              valued: &quot;the part about the hacker houses, residencies, and microgrants.&quot;
+            </p>
+            <p>
+              That was the moment documenting this world felt necessary over a one-off film.
             </p>
           </div>
         </section>
