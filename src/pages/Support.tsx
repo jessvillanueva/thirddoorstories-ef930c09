@@ -11,7 +11,7 @@ const Support = () => {
       <main className="container-content py-12 md:py-20 max-w-[720px] animate-fade-in">
         <span className="overline text-foreground/[0.35]">Support Third Door Stories</span>
         <h1 className="mt-6 mb-8">
-          Help us document the paths that matter.
+          Help document the paths that matter.
         </h1>
         <p className="body-base text-foreground/[0.65] mb-12">
           Third Door Stories is independent media. No ads, no sponsors dictating content.
