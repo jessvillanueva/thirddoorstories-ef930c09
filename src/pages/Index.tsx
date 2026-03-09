@@ -52,7 +52,6 @@ const Index = () => {
                 src={logoResidency}
                 alt="The Residency"
                 className="h-12 object-contain"
-                style={{ filter: "invert(1)" }}
               />
             </div>
           </div>
