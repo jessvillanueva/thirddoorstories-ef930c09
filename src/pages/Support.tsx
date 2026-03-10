@@ -1,5 +1,6 @@
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import EmailCaptureBar from "@/components/EmailCaptureBar";
 import { Button } from "@/components/ui/button";
 
 const PATREON_JOIN = "https://www.patreon.com/15019639/join";
