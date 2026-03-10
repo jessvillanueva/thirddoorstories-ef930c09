@@ -46,10 +46,13 @@ const socialLinks = [
   },
 ];
 
+import EmailCaptureBar from "@/components/EmailCaptureBar";
+
 const SiteFooter = () => {
   return (
     <footer className="border-t border-border/[0.12] mt-20">
       <div className="container-content py-8 flex flex-col gap-6">
+        <EmailCaptureBar />
         <div className="flex items-center justify-center gap-5">
           {socialLinks.map((social) => (
             <a
