@@ -57,14 +57,25 @@ const EmailCaptureBar = () => {
           {error && <p className="text-destructive text-sm">{error}</p>}
         </form>
       )}
-      <a
-        href="https://thirddoorstories.beehiiv.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-block mt-3 body-small text-foreground/[0.45] hover:text-primary transition-colors"
-      >
-        Read past issues →
-      </a>
+      <div className="flex items-center justify-between mt-4">
+        <a
+          href="https://thirddoorstories.beehiiv.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="body-small text-foreground/[0.45] hover:text-primary transition-colors"
+        >
+          Read past issues →
+        </a>
+        <a
+          href="https://www.beehiiv.com/?via=third-door-stories"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-1.5 text-foreground/[0.35] hover:text-foreground/[0.55] transition-colors"
+        >
+          <span className="text-xs">Powered by</span>
+          <img src={beehiivLogo} alt="beehiiv" className="h-4 object-contain opacity-60 hover:opacity-90 transition-opacity" />
+        </a>
+      </div>
     </div>
   );
 };
