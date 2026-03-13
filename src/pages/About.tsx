@@ -44,7 +44,7 @@ const About = () => {
           </p>
         </div>
 
-        <hr className="my-10 border-foreground/10" />
+        <hr className="my-7 border-foreground/10" />
 
         {/* The Information Gap */}
         <section className="flex flex-col gap-5">
