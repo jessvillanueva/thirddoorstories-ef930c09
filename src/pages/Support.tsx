@@ -1,7 +1,7 @@
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
-
 import { Button } from "@/components/ui/button";
+import beehiivLogo from "@/assets/beehiiv-logo.png";
 
 const PATREON_JOIN = "https://www.patreon.com/15019639/join";
 const YOUTUBE = "https://www.youtube.com/@thirddoorstories";
