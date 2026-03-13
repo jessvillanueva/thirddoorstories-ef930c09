@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import beehiivLogo from "@/assets/beehiiv-logo.png";
 
 const PUBLICATION_ID = "bec1e30d-1ef3-4808-93cd-ffde841b69d5";
 
