@@ -83,7 +83,7 @@ const About = () => {
           <h2>From Bus Rides to Possibilities</h2>
           <div className="flex flex-col gap-5 body-base text-foreground/[0.65]">
             <p>
-              When I was 14 in my final year of middle school, I stayed ahead in all my classes, convinced my teachers to excuse me out early, and rode a bus every month to crash a science club in high school. The older kids literally played with fire and blew up bottles with baking soda and vinegar.
+              When I was 14 in my final year of middle school, I stayed ahead in all my classes, convinced my teachers to excuse me out early, and rode a bus every month to crash a science club in high school. The older kids literally played with fire and blew up bottles with baking soda and vinegar. Our irrationally passionate science teacher lit flames in our hearts to nerd out, stay weird, and be curious.
             </p>
             <p>
               That one room reset my ceiling for what was possible.
