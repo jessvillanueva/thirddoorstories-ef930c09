@@ -40,7 +40,7 @@ const About = () => {
             The problem? No one ever really shows them what&apos;s actually in between.
           </p>
           <p>
-            Third Door Stories is a small documentary studio and essay lab mapping the hidden builder ecosystem most college admissions officers have ever heard of.
+            Third Door Stories is a small documentary studio and essay lab mapping the hidden builder ecosystem most college admissions officers have never heard of.
           </p>
         </div>
 
