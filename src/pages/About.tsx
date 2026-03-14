@@ -142,7 +142,7 @@ const About = () => {
               <li>Residencies like Nautilus, The Residency, Edge City</li>
               <li>Hacker houses like FR8</li>
               <li>Fellowships like On Deck and Z Fellows</li>
-              <li>Builder communities like Socratica, Verci, Cansbridge, F.inc, and others doing quiet yet serious work</li>
+              <li>Builder communities like Socratica, Verci, Cansbridge, f.inc, and others doing quiet yet serious work</li>
               <li>First client stories, product validation without VC, and navigating family pressure when going off script</li>
             </ul>
           </div>
