@@ -31,7 +31,17 @@ const SiteHeader = () => {
           ))}
         </nav>
 
-        <span className="hidden lg:block body-small text-foreground/[0.35]">Independent media for builders</span>
+        <a
+          href="https://thirddoorstories.substack.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#FF6719] text-white text-xs font-medium hover:bg-[#FF6719]/90 transition-colors"
+        >
+          <svg viewBox="0 0 24 24" fill="currentColor" className="w-3.5 h-3.5">
+            <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z" />
+          </svg>
+          Subscribe
+        </a>
 
         {/* Mobile toggle */}
         <button

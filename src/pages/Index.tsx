@@ -3,7 +3,7 @@ import SiteFooter from "@/components/SiteFooter";
 import VideoCard from "@/components/VideoCard";
 import EssayCard from "@/components/EssayCard";
 import FeaturedPost from "@/components/FeaturedPost";
-import SubstackCTA from "@/components/SubstackCTA";
+
 
 import logo1517 from "@/assets/1517-logo.png";
 import logoResidency from "@/assets/residency-logo.png";
@@ -19,13 +19,8 @@ const Index = () => {
         {/* Hero */}
         <section className="flex flex-col gap-6 animate-fade-in">
           <h1>
-            These paths exist. They're just invisible unless you stumble onto them.
+            These paths exist. They're invisible unless you stumble onto them.
           </h1>
-        </section>
-
-        {/* Substack CTA */}
-        <section className="animate-fade-in" style={{ animationDelay: "0.05s" }}>
-          <SubstackCTA />
         </section>
 
         {/* Pilot Video */}
@@ -91,10 +86,11 @@ const Index = () => {
               external
             />
             <EssayCard
-              readTime="5 min read"
+              readTime="Coming soon"
               title="The Origins of the Underworld: How the Builder Scene Actually Started"
               thesis="buildspace. 1517. Emergent Ventures. Y Combinator. The Thiel Fellowship's chaotic early years. The weird little rooms, Discord servers, and SF apartments where this whole ecosystem started, and why most of it stays invisible unless you're already in."
               href="/essays/building-in-public"
+              image={socraticaSymposium}
             />
           </div>
 
@@ -108,10 +104,6 @@ const Index = () => {
           />
         </section>
 
-        {/* Bottom Substack CTA */}
-        <section className="animate-fade-in">
-          <SubstackCTA />
-        </section>
       </main>
 
       <SiteFooter />

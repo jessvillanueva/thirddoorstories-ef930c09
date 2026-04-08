@@ -45,10 +45,7 @@ const Support = () => {
                 <li>• Clips on X / Instagram</li>
                 <li>• Public essays and maps on Medium</li>
                 <li>• Free membership on Patreon for updates</li>
-                <li>• Newsletter on Substack or Beehiiv</li>
-                <li>• Field notes from the docuseries</li>
-                <li>• Longform profiles</li>
-                <li>• Behind-the-scenes on community and experimentation</li>
+                <li>• Field notes from the docuseries, longform profiles, behind-the-scenes on community and experimentation on Substack and Beehiiv</li>
               </ul>
               <p className="body-small text-foreground/[0.45] mt-auto">
                 If you stay on free, you still get the core stories.
