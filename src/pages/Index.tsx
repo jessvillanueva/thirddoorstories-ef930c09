@@ -3,7 +3,7 @@ import SiteFooter from "@/components/SiteFooter";
 import VideoCard from "@/components/VideoCard";
 import EssayCard from "@/components/EssayCard";
 import FeaturedPost from "@/components/FeaturedPost";
-import SubstackCTA from "@/components/SubstackCTA";
+
 
 import logo1517 from "@/assets/1517-logo.png";
 import logoResidency from "@/assets/residency-logo.png";
